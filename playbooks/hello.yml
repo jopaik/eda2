@@ -1,7 +1,7 @@
 ---
 - name: hello
   hosts: localhost
-  gather_facts: false
+  gather_facts: true
   tasks:
     - debug:
         msg: "hello {{ hello }}"
